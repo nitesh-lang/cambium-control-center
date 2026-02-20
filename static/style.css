@@ -1,0 +1,109 @@
+/* Base Layout */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: linear-gradient(135deg, #f1f5f9, #e2e8f0);
+    padding: 60px 20px;
+}
+
+/* Container */
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 34px;
+    margin-bottom: 8px;
+    color: #0f172a;
+}
+
+.subtitle {
+    color: #64748b;
+    font-size: 15px;
+}
+
+/* Card */
+.card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #0f172a;
+    color: white;
+}
+
+th {
+    padding: 18px;
+    text-align: left;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+td {
+    padding: 18px;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 14px;
+    color: #334155;
+}
+
+tbody tr:hover {
+    background: #f8fafc;
+    transition: 0.2s ease;
+}
+
+/* Buttons */
+.btn {
+    padding: 9px 16px;
+    background: #2563eb;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.btn:hover {
+    background: #1e40af;
+    transform: translateY(-2px);
+}
+
+/* Badges */
+.badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.nexlev {
+    background: #e0f2fe;
+    color: #0369a1;
+}
+
+.cambium {
+    background: #ede9fe;
+    color: #6d28d9;
+}
+
+.audio {
+    background: #dcfce7;
+    color: #166534;
+}
